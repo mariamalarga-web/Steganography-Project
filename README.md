@@ -1,2 +1,25 @@
-# Steganography-Project
-Hide text in image using LSB - Cybersecurity Project
+# Steganography Project - خوارزمية الحقن الرقمي
+
+## معلومات الطلاب
+- **الطالبة:** مريم الزماعرة
+- **الطالب:** حسني النواجعة
+- **التخصص:** أمن سيبراني
+- **الكلية:** الكلية الذكية للتعليم الحديث
+
+## وصف المشروع
+إخفاء نص داخل صورة باستخدام تقنية LSB (Least Significant Bit)
+
+## المكتبات المستخدمة
+- Python 3
+- Pillow
+- NumPy
+
+## طريقة التشغيل
+1. ثبت المكتبات: pip install Pillow numpy
+2. شغل الكود: python steganography.py
+
+## خطوات العمل
+1. تحليل الصورة وتحويلها لمصفوفة
+2. تحويل النص لـ Bitstream
+3. إخفاء النص في LSB لكل بكسل
+4. حفظ الصورة الناتجة بصيغة PNG
